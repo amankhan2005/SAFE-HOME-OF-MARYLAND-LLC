@@ -32,7 +32,7 @@ const HomeFAQ = () => {
   };
 
   return (
-    <section className="relative py-24 lg:py-32 bg-white overflow-hidden">
+    <section className="relative py-24 lg:py-24 bg-white overflow-hidden">
       
       {/* DECORATIVE BACKGROUND ELEMENTS */}
       <div className="absolute top-0 left-0 w-full h-full bg-[linear-gradient(to_right,#80808005_1px,transparent_1px),linear-gradient(to_bottom,#80808005_1px,transparent_1px)] bg-[size:24px_24px]"></div>

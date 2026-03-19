@@ -51,13 +51,13 @@
               {/* Secondary Overlapping Image */}
               <div className="absolute bottom-0 left-0 lg:left-10 w-2/3 h-1/3 rounded-xl overflow-hidden shadow-xl border-4 border-white z-20 transform -rotate-3 hover:rotate-0 transition-transform duration-500">
                 <img
-                  src="/images/about.jpg" // Secondary image
+                  src="/images/about2.jpg" // Secondary image
                   alt="Happy resident"
                   className="w-full h-full object-cover"
                 />
               </div>
 
-              {/* Floating Badge */}
+               
                
             </div>
 
@@ -81,7 +81,7 @@
               </div>
 
               {/* Stats Row */}
-              <div className="grid grid-cols-3 gap-6 mt-10 pt-10 border-t border-gray-200">
+              {/* <div className="grid grid-cols-3 gap-6 mt-10 pt-10 border-t border-gray-200">
                 <div>
                   <p className="text-3xl md:text-4xl font-bold text-[#E68A3F]">50+</p>
                   <p className="text-sm text-gray-500 mt-1">Happy Residents</p>
@@ -94,7 +94,7 @@
                   <p className="text-3xl md:text-4xl font-bold text-[#E68A3F]">15+</p>
                   <p className="text-sm text-gray-500 mt-1">Years Exp.</p>
                 </div>
-              </div>
+              </div> */}
             </div>
 
           </div>

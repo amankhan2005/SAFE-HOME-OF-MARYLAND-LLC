@@ -5,8 +5,7 @@ const HomeAboutPreview = () => {
     <section className="relative py-24 lg:py-32 bg-white overflow-hidden">
       
       {/* ABSTRACT BACKGROUND SHAPE */}
-      {/* Replaces the dot pattern with a large, subtle organic shape for a modern editorial feel */}
-      <div className="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-l from-[#F8F9FA] to-transparent opacity-70 clip-path-polygon-[0_0,100%_0,100%_100%,20%_100%]"></div>
+       <div className="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-l from-[#F8F9FA] to-transparent opacity-70 clip-path-polygon-[0_0,100%_0,100%_100%,20%_100%]"></div>
       
       <div className="relative max-w-7xl mx-auto px-6 lg:px-8">
         <div className="grid lg:grid-cols-12 gap-12 lg:gap-8 items-center">
@@ -25,11 +24,10 @@ const HomeAboutPreview = () => {
               <div className="absolute inset-0 bg-[#2F5D5E]/10 mix-blend-multiply"></div>
             </div>
 
-            {/* Secondary Overlapping Image - Creates depth */}
-            {/* Note: You can use a different image here, e.g., "/images/about-2.jpg" */}
+             
             <div className="absolute z-20 bottom-0 left-0 lg:left-4 w-2/3 h-1/3 rounded-xl overflow-hidden shadow-xl border-4 border-white transform -rotate-2 hover:rotate-0 transition-transform duration-300">
                <img
-                src="/images/about.jpg" // Swap this for a secondary image
+                src="/images/about2.jpg" // Swap this for a secondary image
                 alt="Happy resident"
                 className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500"
               />
@@ -37,10 +35,10 @@ const HomeAboutPreview = () => {
 
             {/* FLOATING STATS BADGE */}
             <div className="absolute z-30 top-6 right-0 lg:-right-4 bg-[#1F2F2F] text-white p-4 rounded-xl shadow-xl flex items-center gap-3 border border-[#2F5D5E]/50">
-              <div className="text-center">
+              {/* <div className="text-center">
                 <p className="text-2xl font-bold text-[#E68A3F]">10+</p>
                 <p className="text-xs uppercase tracking-wider opacity-80">Years Exp.</p>
-              </div>
+              </div> */}
               <div className="h-10 w-px bg-white/20"></div>
               <div className="text-center">
                 <p className="text-2xl font-bold text-[#E68A3F]">24/7</p>

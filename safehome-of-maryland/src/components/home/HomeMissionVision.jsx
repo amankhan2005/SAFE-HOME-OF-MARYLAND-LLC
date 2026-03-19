@@ -3,8 +3,7 @@
     <section className="relative py-24 lg:py-24   overflow-hidden">
       
       {/* SUBTLE BACKGROUND ELEMENTS */}
-      {/* Decorative circles to add movement */}
-      <div className="absolute top-10 left-10 w-64 h-64 bg-[#EED4B7]/20 rounded-full blur-3xl"></div>
+       <div className="absolute top-10 left-10 w-64 h-64 bg-[#EED4B7]/20 rounded-full blur-3xl"></div>
       <div className="absolute bottom-10 right-10 w-64 h-64 bg-[#2F5D5E]/10 rounded-full blur-3xl"></div>
 
       <div className="relative max-w-7xl mx-auto px-6 lg:px-8">

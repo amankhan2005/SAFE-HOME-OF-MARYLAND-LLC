@@ -1,4 +1,4 @@
- import { useState } from "react";
+import { useState } from "react";
 import { submitContactForm } from "../../utils/api";
 import toast from "react-hot-toast";
 
@@ -40,12 +40,12 @@ const ContactPage = () => {
 
   return (
     <div className="bg-slate-50 min-h-screen">
-      
+
       {/* HERO */}
       <section className="relative bg-[#1F2F2F] py-24 lg:py-32 overflow-hidden">
         <div className="absolute top-0 right-0 w-96 h-96 bg-[#2F5D5E]/30 rounded-full blur-3xl translate-x-1/3 -translate-y-1/2"></div>
         <div className="absolute bottom-0 left-0 w-64 h-64 bg-[#E68A3F]/10 rounded-full blur-3xl"></div>
-        
+
         <div className="relative max-w-7xl mx-auto px-6 lg:px-8 text-center">
           <span className="inline-block text-sm font-bold text-[#E68A3F] tracking-widest uppercase mb-4">
             Get In Touch
@@ -61,20 +61,20 @@ const ContactPage = () => {
 
       {/* MAIN CONTENT */}
       <section className="relative py-24 lg:py-32 -mt-10">
-        
+
         {/* Background Pattern */}
         <div className="absolute inset-0 bg-[linear-gradient(to_right,#80808005_1px,transparent_1px),linear-gradient(to_bottom,#80808005_1px,transparent_1px)] bg-[size:24px_24px]"></div>
 
         <div className="relative max-w-7xl mx-auto px-6 lg:px-8">
           <div className="grid lg:grid-cols-12 gap-12 lg:gap-16">
-            
+
             {/* LEFT COLUMN - Info & Map */}
             <div className="lg:col-span-5 space-y-8">
-              
+
               {/* Contact Info Card */}
               <div className="bg-white p-8 rounded-3xl shadow-sm border border-gray-100">
                 <h2 className="text-2xl font-bold text-[#1F2F2F] mb-6">Contact Information</h2>
-                
+
                 <div className="space-y-6">
                   <div className="flex items-start gap-4">
                     <div className="flex-shrink-0 w-12 h-12 rounded-xl bg-[#2F5D5E]/10 flex items-center justify-center text-[#2F5D5E]">
@@ -108,18 +108,18 @@ const ContactPage = () => {
                 </div>
               </div>
 
-             {/* Map */}
-<div className="relative h-64 rounded-2xl overflow-hidden bg-gray-200 border border-gray-100">
-  
-  {/* REAL GOOGLE MAP (CLICKABLE) */}
-  <iframe
-    src="https://www.google.com/maps?q=1337+Tralee+Circle+Aberdeen+MD+21001&output=embed"
-    className="absolute inset-0 w-full h-full"
-    style={{ border: 0 }}
-    loading="lazy"
-  ></iframe>
+              {/* Map */}
+              <div className="relative h-64 rounded-2xl overflow-hidden bg-gray-200 border border-gray-100">
 
-</div>
+                {/* REAL GOOGLE MAP (CLICKABLE) */}
+                <iframe
+                  src="https://www.google.com/maps?q=1337+Tralee+Circle+Aberdeen+MD+21001&output=embed"
+                  className="absolute inset-0 w-full h-full"
+                  style={{ border: 0 }}
+                  loading="lazy"
+                ></iframe>
+
+              </div>
 
             </div>
 
@@ -130,7 +130,7 @@ const ContactPage = () => {
                 <p className="text-gray-500 mb-8">We typically respond within 24 hours.</p>
 
                 <form onSubmit={handleSubmit} className="space-y-6">
-                  
+
                   {/* Name Input */}
                   <div>
                     <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">Full Name *</label>
@@ -211,11 +211,10 @@ const ContactPage = () => {
                   <button
                     type="submit"
                     disabled={loading}
-                    className={`w-full inline-flex items-center justify-center gap-2 px-8 py-4 text-white font-bold rounded-xl shadow-lg transition-all duration-300 ${
-                      loading
+                    className={`w-full inline-flex items-center justify-center gap-2 px-8 py-4 text-white font-bold rounded-xl shadow-lg transition-all duration-300 ${loading
                         ? "bg-gray-400 cursor-not-allowed"
                         : "bg-[#E68A3F] hover:bg-[#CC7730] hover:shadow-xl hover:-translate-y-0.5"
-                    }`}
+                      }`}
                   >
                     {loading ? (
                       <>

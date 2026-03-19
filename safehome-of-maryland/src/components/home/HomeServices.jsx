@@ -4,7 +4,7 @@ import ServiceCard from "../services/ServiceCard";
 
 const HomeServices = () => {
   return (
-    <section className="relative py-24 lg:py-24 overflow-hidden">
+    <section className="relative   lg:py-16 overflow-hidden">
       
       
       <div className="absolute inset-0 bg-gradient-to-b from-white via-[#FAFAFA] to-white"></div>
