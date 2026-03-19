@@ -34,7 +34,7 @@ const ServiceDetails = ({ title, description }) => {
 
         {/* CTA */}
         <Link
-          to="/contact"
+          to="/contact-us"
           className="inline-block bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-md"
         >
           Contact Us
