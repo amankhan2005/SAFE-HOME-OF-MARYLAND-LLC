@@ -20,17 +20,53 @@ export const sendAdminEmail = async ({ name, email, phone, message }) => {
       to: ADMIN_EMAIL,
       subject: `New Contact Inquiry - ${COMPANY_NAME}`,
 
-      html: `
-        <h2>📩 New Inquiry Received</h2>
+       html: `
+  <div style="font-family: Arial, sans-serif; background:#f4f6f8; padding:30px;">
+    
+    <div style="max-width:600px; margin:auto; background:#ffffff; border-radius:12px; overflow:hidden; box-shadow:0 10px 30px rgba(0,0,0,0.05);">
+      
+      <!-- Header -->
+      <div style="background:#2F5D5E; color:#fff; padding:20px; text-align:center;">
+        <h2 style="margin:0;">📩 New Inquiry Received</h2>
+        <p style="margin:5px 0 0; font-size:14px;">${COMPANY_NAME}</p>
+      </div>
 
-        <p><strong>Name:</strong> ${name}</p>
-        <p><strong>Email:</strong> ${email}</p>
-        <p><strong>Phone:</strong> ${phone || "N/A"}</p>
-        <p><strong>Message:</strong> ${message}</p>
+      <!-- Body -->
+      <div style="padding:25px;">
+        
+        <p style="margin-bottom:20px; color:#555;">
+          You have received a new contact form inquiry. Details are below:
+        </p>
 
-        <hr/>
-        <p>${COMPANY_NAME}</p>
-      `
+        <table style="width:100%; border-collapse:collapse;">
+          <tr>
+            <td style="padding:10px; font-weight:bold;">Name:</td>
+            <td style="padding:10px;">${name}</td>
+          </tr>
+          <tr style="background:#f9f9f9;">
+            <td style="padding:10px; font-weight:bold;">Email:</td>
+            <td style="padding:10px;">${email}</td>
+          </tr>
+          <tr>
+            <td style="padding:10px; font-weight:bold;">Phone:</td>
+            <td style="padding:10px;">${phone || "N/A"}</td>
+          </tr>
+          <tr style="background:#f9f9f9;">
+            <td style="padding:10px; font-weight:bold;">Message:</td>
+            <td style="padding:10px;">${message}</td>
+          </tr>
+        </table>
+
+      </div>
+
+      <!-- Footer -->
+      <div style="background:#f1f1f1; padding:15px; text-align:center; font-size:12px; color:#777;">
+        © ${new Date().getFullYear()} ${COMPANY_NAME}. All rights reserved.
+      </div>
+
+    </div>
+  </div>
+`
     });
 
     return response;
@@ -50,17 +86,55 @@ export const sendUserEmail = async ({ name, email }) => {
       to: email,
       subject: `We Received Your Request - ${COMPANY_NAME}`,
 
-      html: `
-        <h2>Hello ${name},</h2>
+       html: `
+  <div style="font-family: Arial, sans-serif; background:#f4f6f8; padding:30px;">
+    
+    <div style="max-width:600px; margin:auto; background:#ffffff; border-radius:12px; overflow:hidden; box-shadow:0 10px 30px rgba(0,0,0,0.05);">
+      
+      <!-- Header -->
+      <div style="background:#2F5D5E; color:#fff; padding:25px; text-align:center;">
+        <h2 style="margin:0;">SAFE HOME OF MARYLAND</h2>
+        <p style="margin:5px 0 0; font-size:14px;">We’ve received your request</p>
+      </div>
 
-        <p>Thank you for contacting <strong>${COMPANY_NAME}</strong>.</p>
+      <!-- Body -->
+      <div style="padding:25px;">
+        
+        <h3 style="margin-top:0;">Hello ${name}, 👋</h3>
 
-        <p>We have received your inquiry and our team will get back to you shortly.</p>
+        <p style="color:#555; line-height:1.6;">
+          Thank you for reaching out to <strong>${COMPANY_NAME}</strong>.
+          We’ve successfully received your message and our team will review it shortly.
+        </p>
 
+        <p style="color:#555; line-height:1.6;">
+          You can expect a response from us within <strong>24 hours</strong>.
+        </p>
+
+        <!-- CTA Button -->
+        <div style="margin:30px 0; text-align:center;">
+          <a href="mailto:${ADMIN_EMAIL}" 
+             style="background:#E68A3F; color:#fff; padding:12px 20px; border-radius:8px; text-decoration:none; font-weight:bold;">
+            Contact Us Directly
+          </a>
+        </div>
+
+        <p style="color:#777; font-size:14px;">
+          If your request is urgent, feel free to reply to this email.
+        </p>
+
+      </div>
+
+      <!-- Footer -->
+      <div style="background:#f1f1f1; padding:15px; text-align:center; font-size:12px; color:#777;">
+        © ${new Date().getFullYear()} ${COMPANY_NAME}  
         <br/>
+        Safe • Reliable • Trusted Care
+      </div>
 
-        <p>Best regards,<br/>${COMPANY_NAME}</p>
-      `
+    </div>
+  </div>
+`
     });
 
     return response;
