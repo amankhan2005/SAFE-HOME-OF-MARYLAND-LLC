@@ -110,17 +110,25 @@ const Footer = () => {
         </div>
 
         {/* BOTTOM BAR */}
-        <div className="border-t border-white/10 pt-8 mt-8">
-          <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-            <p className="text-sm text-gray-500 text-center md:text-left">
-              © {currentYear} Safe Home of Maryland LLC. All rights reserved.
-            </p>
-            {/* <div className="flex gap-6">
-              <Link to="/privacy-policy" className="text-sm text-gray-500 hover:text-[#E68A3F] transition-colors">Privacy Policy</Link>
-              <Link to="/terms" className="text-sm text-gray-500 hover:text-[#E68A3F] transition-colors">Terms of Service</Link>
-            </div> */}
-          </div>
-        </div>
+    <div className="flex flex-col md:flex-row justify-between items-center gap-4">
+  
+  <p className="text-sm text-gray-500 text-center md:text-left">
+    © {currentYear} Safe Home of Maryland LLC. All rights reserved.
+  </p>
+
+  <p className="text-sm text-gray-500 text-center md:text-right">
+    Design & Developed by{" "}
+    <a
+      href="https://www.webieapp.com/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-[#E68A3F] hover:text-white transition-colors font-medium"
+    >
+      WebieApp
+    </a>
+  </p>
+
+</div>
 
       </div>
     </footer>
