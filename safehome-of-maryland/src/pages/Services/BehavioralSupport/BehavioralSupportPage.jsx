@@ -85,7 +85,7 @@ const BehavioralSupportPage = () => {
             <div className="relative h-[400px] lg:h-[500px]">
               <div className="absolute top-4 left-4 w-full h-full bg-[#2F5D5E] rounded-2xl transform rotate-2"></div>
               <img
-                src="/images/behavioral-support.webp"
+                src="/images/behavioral-support.avif"
                 alt="Caregiver interaction"
                 className="relative z-10 w-full h-full object-cover rounded-2xl shadow-xl"
               />
