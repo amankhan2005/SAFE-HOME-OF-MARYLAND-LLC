@@ -1,5 +1,5 @@
  import Contact from "../models/Contact.js";
-import { sendAdminEmail, sendUserEmail } from "../utils/sendEmail.js";
+import { sendAdminEmail, sendUserEmail } from "../services/emailService.js";
 
 export const submitContact = async (req, res, next) => {
   try {
