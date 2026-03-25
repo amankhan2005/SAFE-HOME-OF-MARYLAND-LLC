@@ -5,14 +5,17 @@ import { errorHandler } from "./middleware/errorMiddleware.js";
 
 const app = express();
 
-app.use(cors({
+ app.use(cors({
   origin: [
-    "https://safehomeofmaryland.netlify.app",
-    "https://safehomeofmaryland.com"
+  "https://safehomeofmaryland.netlify.app",
+  "https://safehomeofmaryland.com",
+  "https://www.safehomeofmaryland.com"
   ],
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true
 }));
+
+app.options("*", cors()); // ✅ ADD THIS
 
 app.use(express.json());
 
