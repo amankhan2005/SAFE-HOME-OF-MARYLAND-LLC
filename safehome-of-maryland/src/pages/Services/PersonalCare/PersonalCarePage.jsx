@@ -51,7 +51,7 @@ const PersonalCarePage = () => {
         {/* Content */}
         <div className="relative z-10 max-w-4xl mx-auto px-6 lg:px-8 py-24 text-center">
           
-          <span className="inline-block px-4 py-1.5 bg-[#E68A3F]/10 border border-[#E68A3F]/20 rounded-full text-[#E68A3F] text-sm font-bold uppercase tracking-wider mb-6">
+          <span className="inline-block px-4 py-1.5 bg-[#E68A3F]/10 border border-[#E68A3F]/20 rounded-full text-[#E68A3F] text-base font-bold uppercase tracking-wider mb-6">
             Daily Living Support
           </span>
 
@@ -95,7 +95,7 @@ const PersonalCarePage = () => {
 
             {/* Content */}
             <div>
-              <span className="inline-block text-sm font-bold text-[#2F5D5E] tracking-widest uppercase mb-4">
+              <span className="inline-block text-base font-bold text-[#2F5D5E] tracking-widest uppercase mb-4">
                 About This Service
               </span>
               <h2 className="text-3xl md:text-4xl font-bold text-[#1F2F2F] leading-tight tracking-tight mb-6">
@@ -138,7 +138,7 @@ const PersonalCarePage = () => {
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"></path></svg>
               </div>
               <h3 className="text-lg font-bold text-[#1F2F2F] mb-2 group-hover:text-white transition-colors">Hygiene Assistance</h3>
-              <p className="text-gray-500 text-sm group-hover:text-gray-200 transition-colors">Professional assistance with bathing, grooming, and personal hygiene needs.</p>
+              <p className="text-gray-500 text-base group-hover:text-gray-200 transition-colors">Professional assistance with bathing, grooming, and personal hygiene needs.</p>
             </div>
 
             {/* Benefit 2 */}
@@ -147,7 +147,7 @@ const PersonalCarePage = () => {
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
               </div>
               <h3 className="text-lg font-bold text-[#1F2F2F] mb-2 group-hover:text-white transition-colors">Meal Preparation</h3>
-              <p className="text-gray-500 text-sm group-hover:text-gray-200 transition-colors">Nutritious meal planning and feeding support tailored to dietary needs.</p>
+              <p className="text-gray-500 text-base group-hover:text-gray-200 transition-colors">Nutritious meal planning and feeding support tailored to dietary needs.</p>
             </div>
 
             {/* Benefit 3 */}
@@ -156,7 +156,7 @@ const PersonalCarePage = () => {
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path></svg>
               </div>
               <h3 className="text-lg font-bold text-[#1F2F2F] mb-2 group-hover:text-white transition-colors">Mobility Support</h3>
-              <p className="text-gray-500 text-sm group-hover:text-gray-200 transition-colors">Safe movement assistance and transferring to prevent falls and injuries.</p>
+              <p className="text-gray-500 text-base group-hover:text-gray-200 transition-colors">Safe movement assistance and transferring to prevent falls and injuries.</p>
             </div>
 
             {/* Benefit 4 */}
@@ -165,7 +165,7 @@ const PersonalCarePage = () => {
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 7a2 2 0 012 2m4 0a6 6 0 01-7.743 5.743L11 17H9v2H7v2H4a1 1 0 01-1-1v-2.586a1 1 0 01.293-.707l5.964-5.964A6 6 0 1121 9z"></path></svg>
               </div>
               <h3 className="text-lg font-bold text-[#1F2F2F] mb-2 group-hover:text-white transition-colors">Independence</h3>
-              <p className="text-gray-500 text-sm group-hover:text-gray-200 transition-colors">Encouraging self-care and independence wherever possible.</p>
+              <p className="text-gray-500 text-base group-hover:text-gray-200 transition-colors">Encouraging self-care and independence wherever possible.</p>
             </div>
 
             {/* Benefit 5 */}
@@ -174,7 +174,7 @@ const PersonalCarePage = () => {
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
               </div>
               <h3 className="text-lg font-bold text-[#1F2F2F] mb-2 group-hover:text-white transition-colors">Expert Caregivers</h3>
-              <p className="text-gray-500 text-sm group-hover:text-gray-200 transition-colors">Compassionate, trained professionals available around the clock.</p>
+              <p className="text-gray-500 text-base group-hover:text-gray-200 transition-colors">Compassionate, trained professionals available around the clock.</p>
             </div>
 
             {/* Benefit 6 */}
@@ -183,7 +183,7 @@ const PersonalCarePage = () => {
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
               </div>
               <h3 className="text-lg font-bold text-[#1F2F2F] mb-2 group-hover:text-white transition-colors">Safe Environment</h3>
-              <p className="text-gray-500 text-sm group-hover:text-gray-200 transition-colors">A respectful, secure, and supportive atmosphere for all residents.</p>
+              <p className="text-gray-500 text-base group-hover:text-gray-200 transition-colors">A respectful, secure, and supportive atmosphere for all residents.</p>
             </div>
 
           </div>
@@ -231,7 +231,7 @@ const PersonalCarePage = () => {
                 className={`group bg-white rounded-2xl overflow-hidden transition-all duration-300 border ${
                   activeIndex === i 
                     ? 'border-[#E68A3F]/30 shadow-lg' 
-                    : 'border-transparent shadow-sm hover:border-gray-100'
+                    : 'border-transparent shadow-base hover:border-gray-100'
                 }`}
               >
                 <button

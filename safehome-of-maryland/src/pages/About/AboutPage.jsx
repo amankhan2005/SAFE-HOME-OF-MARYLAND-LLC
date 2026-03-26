@@ -6,14 +6,14 @@ const AboutPage = () => {
       <section className="relative min-h-[50vh] lg:min-h-[60vh] flex items-center justify-center bg-[#1F2F2F] overflow-hidden">
 
         {/* Background Image with Overlay */}
-        <div className="absolute inset-0 z-0">
+        {/* <div className="absolute inset-0 z-0">
           <img
             src="/images/about-hero.jpg" // Ensure this image exists
             alt="Support staff assisting adult with developmental disabilities"
             className="w-full h-full object-cover opacity-30"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-[#1F2F2F] via-[#1F2F2F]/80 to-transparent"></div>
-        </div>
+        </div> */}
 
         {/* Decorative Elements */}
         <div className="absolute top-0 right-0 w-96 h-96 bg-[#2F5D5E]/20 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2"></div>

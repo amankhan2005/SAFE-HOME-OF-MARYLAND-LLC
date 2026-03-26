@@ -1,4 +1,6 @@
-  import { NavLink, Link } from "react-router-dom";
+ 
+ 
+   import { NavLink, Link } from "react-router-dom";
 import { useState, useEffect, useRef } from "react";
 import { Menu, X, ChevronDown, Heart, Shield, Home, Users, HelpCircle, Phone } from "lucide-react";
 
@@ -40,8 +42,8 @@ const Navbar = () => {
   };
 
   return (
-     <nav className="fixed top-0 left-0 w-full z-[9999] bg-white    shadow-sm">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+     <nav className="fixed top-0 left-0 w-full z-[9999] bg-white    shadow-base">
+      <div className="max-w-7xl mx-auto px-4 base:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           
           {/* LOGO */}
@@ -63,7 +65,7 @@ const Navbar = () => {
               to="/"
               onClick={handleLinkClick}
               className={({ isActive }) =>
-                `relative px-5 py-2 text-sm font-medium rounded-full transition-all duration-200 group ${
+                `relative px-5 py-2 text-base font-medium rounded-full transition-all duration-200 group ${
                   isActive 
                     ? "text-[#2F5D5E] bg-[#2F5D5E]/5" 
                     : "text-slate-600 hover:text-[#2F5D5E] hover:bg-slate-50"
@@ -77,7 +79,7 @@ const Navbar = () => {
               to="/about-us"
               onClick={handleLinkClick}
               className={({ isActive }) =>
-                `relative px-5 py-2 text-sm font-medium rounded-full transition-all duration-200 group ${
+                `relative px-5 py-2 text-base font-medium rounded-full transition-all duration-200 group ${
                   isActive 
                     ? "text-[#2F5D5E] bg-[#2F5D5E]/5" 
                     : "text-slate-600 hover:text-[#2F5D5E] hover:bg-slate-50"
@@ -94,7 +96,7 @@ const Navbar = () => {
                 isActive={isServiceActive} // Highlight if on any service page
                 onClick={() => setDropdown(!dropdown)}
                 className={({ isActive }) =>
-                  `flex items-center px-5 py-2 text-sm font-medium rounded-full transition-all duration-200 ${
+                  `flex items-center px-5 py-2 text-base font-medium rounded-full transition-all duration-200 ${
                     isActive 
                       ? "text-[#2F5D5E] bg-[#2F5D5E]/5" 
                       : "text-slate-600 hover:text-[#2F5D5E] hover:bg-slate-50"
@@ -132,7 +134,7 @@ const Navbar = () => {
                         }`}>
                           <item.icon size={16} className={location.pathname === item.path ? "text-white" : "text-[#2F5D5E]"} />
                         </div>
-                        <span className="font-medium text-sm">{item.name}</span>
+                        <span className="font-medium text-base">{item.name}</span>
                       </NavLink>
                     ))}
                   </div>
@@ -153,7 +155,7 @@ const Navbar = () => {
               to="/faq"
               onClick={handleLinkClick}
               className={({ isActive }) =>
-                `relative px-5 py-2 text-sm font-medium rounded-full transition-all duration-200 group ${
+                `relative px-5 py-2 text-base font-medium rounded-full transition-all duration-200 group ${
                   isActive 
                     ? "text-[#2F5D5E] bg-[#2F5D5E]/5" 
                     : "text-slate-600 hover:text-[#2F5D5E] hover:bg-slate-50"
@@ -170,7 +172,7 @@ const Navbar = () => {
             <Link
               to="/contact-us"
               onClick={handleLinkClick}
-              className="group flex items-center gap-2 px-6 py-2.5 bg-[#E68A3F] text-white text-sm font-bold rounded-full shadow-lg shadow-orange-500/20 hover:bg-[#CC7730] hover:shadow-xl hover:shadow-orange-500/30 transition-all duration-300 transform hover:-translate-y-0.5"
+              className="group flex items-center gap-2 px-6 py-2.5 bg-[#E68A3F] text-white text-base font-bold rounded-full shadow-lg shadow-orange-500/20 hover:bg-[#CC7730] hover:shadow-xl hover:shadow-orange-500/30 transition-all duration-300 transform hover:-translate-y-0.5"
             >
               <Phone size={16} className="opacity-80 group-hover:rotate-12 transition-transform duration-300"/>
               Contact Us
@@ -223,7 +225,7 @@ const Navbar = () => {
                     key={item.path}
                     to={item.path}
                     onClick={handleLinkClick}
-                    className={({isActive}) => `flex items-center gap-2 px-4 py-2 text-sm rounded-lg ${isActive ? "text-[#2F5D5E] font-semibold bg-slate-50" : "text-slate-500 hover:text-slate-700"}`}
+                    className={({isActive}) => `flex items-center gap-2 px-4 py-2 text-base rounded-lg ${isActive ? "text-[#2F5D5E] font-semibold bg-slate-50" : "text-slate-500 hover:text-slate-700"}`}
                   >
                     {item.name}
                   </NavLink>
@@ -254,3 +256,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+ 

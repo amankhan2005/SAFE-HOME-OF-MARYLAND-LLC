@@ -51,7 +51,7 @@ const RespiteCarePage = () => {
         {/* Content */}
         <div className="relative z-10 max-w-4xl mx-auto px-6 lg:px-8 py-24 text-center">
           
-          <span className="inline-block px-4 py-1.5 bg-[#E68A3F]/10 border border-[#E68A3F]/20 rounded-full text-[#E68A3F] text-sm font-bold uppercase tracking-wider mb-6">
+          <span className="inline-block px-4 py-1.5 bg-[#E68A3F]/10 border border-[#E68A3F]/20 rounded-full text-[#E68A3F] text-base font-bold uppercase tracking-wider mb-6">
             Family Support
           </span>
 
@@ -95,7 +95,7 @@ const RespiteCarePage = () => {
 
             {/* Content */}
             <div>
-              <span className="inline-block text-sm font-bold text-[#2F5D5E] tracking-widest uppercase mb-4">
+              <span className="inline-block text-base font-bold text-[#2F5D5E] tracking-widest uppercase mb-4">
                 About This Service
               </span>
               <h2 className="text-3xl md:text-4xl font-bold text-[#1F2F2F] leading-tight tracking-tight mb-6">
@@ -106,7 +106,7 @@ const RespiteCarePage = () => {
                   At Safe Home of Maryland, we understand that caregiving is both rewarding and demanding. Our respite care services are designed to provide temporary relief for families and primary caregivers.
                 </p>
                 <p>
-                  During this time, individuals continue to receive high-quality care in a safe, structured, and nurturing environment. Our trained staff ensures that all needs are met with compassion and professionalism.
+                  During this time, individuals continue to receive high-quality care in a safe, structured, and nurturing environment. Our trained staff ensures that all needs are met with compassion and professionalibase.
                 </p>
                 <p>
                   Whether care is needed for a few hours or longer, we offer flexible solutions that adapt to each family’s situation, maintaining continuity of care while providing caregivers with the support they need.
@@ -138,7 +138,7 @@ const RespiteCarePage = () => {
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path></svg>
               </div>
               <h3 className="text-lg font-bold text-[#1F2F2F] mb-2 group-hover:text-white transition-colors">Caregiver Relief</h3>
-              <p className="text-gray-500 text-sm group-hover:text-gray-200 transition-colors">Temporary relief for families and primary caregivers to rest and recharge.</p>
+              <p className="text-gray-500 text-base group-hover:text-gray-200 transition-colors">Temporary relief for families and primary caregivers to rest and recharge.</p>
             </div>
 
             {/* Benefit 2 */}
@@ -147,7 +147,7 @@ const RespiteCarePage = () => {
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
               </div>
               <h3 className="text-lg font-bold text-[#1F2F2F] mb-2 group-hover:text-white transition-colors">Flexible Scheduling</h3>
-              <p className="text-gray-500 text-sm group-hover:text-gray-200 transition-colors">Care options tailored to fit your specific schedule and duration needs.</p>
+              <p className="text-gray-500 text-base group-hover:text-gray-200 transition-colors">Care options tailored to fit your specific schedule and duration needs.</p>
             </div>
 
             {/* Benefit 3 */}
@@ -156,7 +156,7 @@ const RespiteCarePage = () => {
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
               </div>
               <h3 className="text-lg font-bold text-[#1F2F2F] mb-2 group-hover:text-white transition-colors">Safe Environment</h3>
-              <p className="text-gray-500 text-sm group-hover:text-gray-200 transition-colors">A secure, supervised setting ensuring safety and well-being at all times.</p>
+              <p className="text-gray-500 text-base group-hover:text-gray-200 transition-colors">A secure, supervised setting ensuring safety and well-being at all times.</p>
             </div>
 
             {/* Benefit 4 */}
@@ -165,7 +165,7 @@ const RespiteCarePage = () => {
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
               </div>
               <h3 className="text-lg font-bold text-[#1F2F2F] mb-2 group-hover:text-white transition-colors">Professional Staff</h3>
-              <p className="text-gray-500 text-sm group-hover:text-gray-200 transition-colors">Compassionate and trained caregivers providing expert support.</p>
+              <p className="text-gray-500 text-base group-hover:text-gray-200 transition-colors">Compassionate and trained caregivers providing expert support.</p>
             </div>
 
             {/* Benefit 5 */}
@@ -174,7 +174,7 @@ const RespiteCarePage = () => {
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path></svg>
               </div>
               <h3 className="text-lg font-bold text-[#1F2F2F] mb-2 group-hover:text-white transition-colors">Continuity of Care</h3>
-              <p className="text-gray-500 text-sm group-hover:text-gray-200 transition-colors">Maintaining daily routines and care plans for seamless transitions.</p>
+              <p className="text-gray-500 text-base group-hover:text-gray-200 transition-colors">Maintaining daily routines and care plans for seamless transitions.</p>
             </div>
 
             {/* Benefit 6 */}
@@ -183,7 +183,7 @@ const RespiteCarePage = () => {
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
               </div>
               <h3 className="text-lg font-bold text-[#1F2F2F] mb-2 group-hover:text-white transition-colors">Peace of Mind</h3>
-              <p className="text-gray-500 text-sm group-hover:text-gray-200 transition-colors">Knowing your loved ones are in safe, caring hands while you take a break.</p>
+              <p className="text-gray-500 text-base group-hover:text-gray-200 transition-colors">Knowing your loved ones are in safe, caring hands while you take a break.</p>
             </div>
 
           </div>
@@ -231,7 +231,7 @@ const RespiteCarePage = () => {
                 className={`group bg-white rounded-2xl overflow-hidden transition-all duration-300 border ${
                   activeIndex === i 
                     ? 'border-[#E68A3F]/30 shadow-lg' 
-                    : 'border-transparent shadow-sm hover:border-gray-100'
+                    : 'border-transparent shadow-base hover:border-gray-100'
                 }`}
               >
                 <button

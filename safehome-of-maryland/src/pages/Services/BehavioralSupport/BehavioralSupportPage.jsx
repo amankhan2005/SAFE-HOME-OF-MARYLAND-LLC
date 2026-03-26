@@ -23,7 +23,7 @@ const BehavioralSupportPage = () => {
     },
     {
       q: "Are care plans personalized?",
-      a: "Absolutely. Each care plan is tailored based on individual needs, goals, and assessments."
+      a: "Absolutely. Each care plan is tailored based on individual needs, goals, and assesbaseents."
     }
   ];
 
@@ -51,7 +51,7 @@ const BehavioralSupportPage = () => {
   {/* Content */}
   <div className="relative z-10 max-w-4xl mx-auto px-6 lg:px-8 py-24 text-center">
     
-    <span className="inline-block px-4 py-1.5 bg-[#E68A3F]/10 border border-[#E68A3F]/20 rounded-full text-[#E68A3F] text-sm font-bold uppercase tracking-wider mb-6">
+    <span className="inline-block px-4 py-1.5 bg-[#E68A3F]/10 border border-[#E68A3F]/20 rounded-full text-[#E68A3F] text-base font-bold uppercase tracking-wider mb-6">
       Core Service
     </span>
 
@@ -94,7 +94,7 @@ const BehavioralSupportPage = () => {
 
             {/* Content */}
             <div>
-              <span className="inline-block text-sm font-bold text-[#2F5D5E] tracking-widest uppercase mb-4">
+              <span className="inline-block text-base font-bold text-[#2F5D5E] tracking-widest uppercase mb-4">
                 About This Service
               </span>
               <h2 className="text-3xl md:text-4xl font-bold text-[#1F2F2F] leading-tight tracking-tight mb-6">
@@ -137,7 +137,7 @@ const BehavioralSupportPage = () => {
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path></svg>
               </div>
               <h3 className="text-lg font-bold text-[#1F2F2F] mb-2 group-hover:text-white transition-colors">Emotional Regulation</h3>
-              <p className="text-gray-500 text-sm group-hover:text-gray-200 transition-colors">Improves emotional regulation and helps develop healthy coping abilities.</p>
+              <p className="text-gray-500 text-base group-hover:text-gray-200 transition-colors">Improves emotional regulation and helps develop healthy coping abilities.</p>
             </div>
 
             {/* Benefit 2 */}
@@ -146,7 +146,7 @@ const BehavioralSupportPage = () => {
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
               </div>
               <h3 className="text-lg font-bold text-[#1F2F2F] mb-2 group-hover:text-white transition-colors">Positive Routines</h3>
-              <p className="text-gray-500 text-sm group-hover:text-gray-200 transition-colors">Encourages positive daily habits, structure, and consistent routines.</p>
+              <p className="text-gray-500 text-base group-hover:text-gray-200 transition-colors">Encourages positive daily habits, structure, and consistent routines.</p>
             </div>
 
             {/* Benefit 3 */}
@@ -155,7 +155,7 @@ const BehavioralSupportPage = () => {
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
               </div>
               <h3 className="text-lg font-bold text-[#1F2F2F] mb-2 group-hover:text-white transition-colors">Personalized Plans</h3>
-              <p className="text-gray-500 text-sm group-hover:text-gray-200 transition-colors">Tailored care plans created to meet individual needs and goals.</p>
+              <p className="text-gray-500 text-base group-hover:text-gray-200 transition-colors">Tailored care plans created to meet individual needs and goals.</p>
             </div>
 
             {/* Benefit 4 */}
@@ -164,7 +164,7 @@ const BehavioralSupportPage = () => {
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
               </div>
               <h3 className="text-lg font-bold text-[#1F2F2F] mb-2 group-hover:text-white transition-colors">Expert Staff</h3>
-              <p className="text-gray-500 text-sm group-hover:text-gray-200 transition-colors">Support from trained, experienced, and compassionate professionals.</p>
+              <p className="text-gray-500 text-base group-hover:text-gray-200 transition-colors">Support from trained, experienced, and compassionate professionals.</p>
             </div>
 
             {/* Benefit 5 */}
@@ -173,7 +173,7 @@ const BehavioralSupportPage = () => {
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path></svg>
               </div>
               <h3 className="text-lg font-bold text-[#1F2F2F] mb-2 group-hover:text-white transition-colors">Safe Environment</h3>
-              <p className="text-gray-500 text-sm group-hover:text-gray-200 transition-colors">A structured, secure, and supportive living atmosphere.</p>
+              <p className="text-gray-500 text-base group-hover:text-gray-200 transition-colors">A structured, secure, and supportive living atmosphere.</p>
             </div>
 
             {/* Benefit 6 */}
@@ -182,7 +182,7 @@ const BehavioralSupportPage = () => {
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path></svg>
               </div>
               <h3 className="text-lg font-bold text-[#1F2F2F] mb-2 group-hover:text-white transition-colors">Progress Tracking</h3>
-              <p className="text-gray-500 text-sm group-hover:text-gray-200 transition-colors">Ongoing monitoring to ensure consistent growth and success.</p>
+              <p className="text-gray-500 text-base group-hover:text-gray-200 transition-colors">Ongoing monitoring to ensure consistent growth and success.</p>
             </div>
 
           </div>
@@ -230,7 +230,7 @@ const BehavioralSupportPage = () => {
                 className={`group bg-white rounded-2xl overflow-hidden transition-all duration-300 border ${
                   activeIndex === i 
                     ? 'border-[#E68A3F]/30 shadow-lg' 
-                    : 'border-transparent shadow-sm hover:border-gray-100'
+                    : 'border-transparent shadow-base hover:border-gray-100'
                 }`}
               >
                 <button
