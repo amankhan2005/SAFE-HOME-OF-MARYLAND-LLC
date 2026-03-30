@@ -88,59 +88,111 @@ const ContactPage = () => {
             <div className="lg:col-span-5 space-y-6 sm:space-y-8">
 
               {/* Contact Info Card */}
-              <div className="bg-white p-6 sm:p-8 rounded-2xl sm:rounded-3xl shadow-sm border border-gray-100">
-                <h2 className="text-xl sm:text-2xl font-bold text-[#1F2F2F] mb-4 sm:mb-6">Contact Information</h2>
+             <div className="bg-white p-6 sm:p-8 rounded-2xl sm:rounded-3xl shadow-sm border border-gray-100">
+  <h2 className="text-xl sm:text-2xl font-bold text-[#1F2F2F] mb-4 sm:mb-6">
+    Contact Information
+  </h2>
 
-                <div className="space-y-4 sm:space-y-6">
+  <div className="space-y-4 sm:space-y-6">
 
-                  {/* 📍 Location */}
-                  <div className="flex items-start gap-3 sm:gap-4">
-                    <div className="flex-shrink-0 w-10 h-10 sm:w-12 sm:h-12 rounded-lg sm:rounded-xl bg-[#2F5D5E]/10 flex items-center justify-center text-[#2F5D5E]">
-                      <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
-                          d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
-                          d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-                      </svg>
-                    </div>
+    {/* 📍 Location */}
+    <div className="flex items-start gap-3 sm:gap-4">
+      <div className="flex-shrink-0 w-10 h-10 sm:w-12 sm:h-12 rounded-lg sm:rounded-xl bg-[#2F5D5E]/10 flex items-center justify-center text-[#2F5D5E]">
+        <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
+            d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
+            d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+        </svg>
+      </div>
 
-                    <div>
-                      <h4 className="font-semibold text-[#1F2F2F] text-sm sm:text-base">Our Location</h4>
+      <div>
+        <h4 className="font-semibold text-[#1F2F2F] text-sm sm:text-base">
+          Our Location
+        </h4>
 
-                      <a
-                        href="https://www.google.com/maps?q=1337+Tralee+Circle+Aberdeen+MD+21001"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-gray-500 text-xs sm:text-sm mt-1 block hover:text-[#2F5D5E] transition"
-                      >
-                        1337 Tralee Circle <br /> Aberdeen, MD 21001
-                      </a>
-                    </div>
-                  </div>
+        <a
+          href="https://www.google.com/maps/search/?api=1&query=1337+Tralee+Circle+Aberdeen+MD+21001"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-gray-500 text-xs sm:text-sm mt-1 block hover:text-[#2F5D5E] transition"
+        >
+          1337 Tralee Circle <br /> Aberdeen, MD 21001
+        </a>
+      </div>
+    </div>
 
-                  {/* 📧 Email */}
-                  <div className="flex items-start gap-3 sm:gap-4">
-                    <div className="flex-shrink-0 w-10 h-10 sm:w-12 sm:h-12 rounded-lg sm:rounded-xl bg-[#2F5D5E]/10 flex items-center justify-center text-[#2F5D5E]">
-                      <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
-                          d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                      </svg>
-                    </div>
+    {/* 📧 Email */}
+    <div className="flex items-start gap-3 sm:gap-4">
+      <div className="flex-shrink-0 w-10 h-10 sm:w-12 sm:h-12 rounded-lg sm:rounded-xl bg-[#2F5D5E]/10 flex items-center justify-center text-[#2F5D5E]">
+        <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
+            d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+        </svg>
+      </div>
 
-                    <div>
-                      <h4 className="font-semibold text-[#1F2F2F] text-sm sm:text-base">Email Address</h4>
+      <div>
+        <h4 className="font-semibold text-[#1F2F2F] text-sm sm:text-base">
+          Email Address
+        </h4>
 
-                      <a
-                        href="mailto:safehomeofmaryland@gmail.com"
-                        className="text-gray-500 text-xs sm:text-sm mt-1 block hover:text-[#2F5D5E] transition break-all"
-                      >
-                        safehomeofmaryland@gmail.com
-                      </a>
-                    </div>
-                  </div>
+        <a
+          href="mailto:safehomeofmd@gmail.com"
+          className="text-gray-500 text-xs sm:text-sm mt-1 block hover:text-[#2F5D5E] transition break-all"
+        >
+          safehomeofmd@gmail.com
+        </a>
+      </div>
+    </div>
 
-                </div>
-              </div>
+    {/* 📞 Phone */}
+    <div className="flex items-start gap-3 sm:gap-4">
+      <div className="flex-shrink-0 w-10 h-10 sm:w-12 sm:h-12 rounded-lg sm:rounded-xl bg-[#2F5D5E]/10 flex items-center justify-center text-[#2F5D5E]">
+        <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
+            d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+        </svg>
+      </div>
+
+      <div>
+        <h4 className="font-semibold text-[#1F2F2F] text-sm sm:text-base">
+          Phone
+        </h4>
+
+        <a
+          href="tel:+14107765928"
+          className="text-gray-500 text-xs sm:text-sm mt-1 block hover:text-[#2F5D5E] transition"
+        >
+          410-776-5928
+        </a>
+      </div>
+    </div>
+
+    {/* 📠 Fax */}
+    <div className="flex items-start gap-3 sm:gap-4">
+      <div className="flex-shrink-0 w-10 h-10 sm:w-12 sm:h-12 rounded-lg sm:rounded-xl bg-[#2F5D5E]/10 flex items-center justify-center text-[#2F5D5E]">
+        <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
+            d="M6 9V2h12v7M6 18h12a2 2 0 002-2v-5a2 2 0 00-2-2H6a2 2 0 00-2 2v5a2 2 0 002 2zm2 0v4h8v-4" />
+        </svg>
+      </div>
+
+      <div>
+        <h4 className="font-semibold text-[#1F2F2F] text-sm sm:text-base">
+          Fax
+        </h4>
+
+        <a
+          href="tel:+14102724230"
+          className="text-gray-500 text-xs sm:text-sm mt-1 block hover:text-[#2F5D5E] transition"
+        >
+          410-272-4230
+        </a>
+      </div>
+    </div>
+
+  </div>
+</div>
 
               {/* Map */}
               <div className="relative h-56 sm:h-64 rounded-2xl overflow-hidden bg-gray-200 border border-gray-100">
